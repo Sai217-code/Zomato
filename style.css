@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+#parent
+{
+    /* background-color: aliceblue; */
+    height:100%;
+    width: 100%;
+    display: grid;
+    
+    grid-template-rows: 64% 40% 50% 50% 50% 50%;
+
+}
+.a{
+     /* background-color: aqua; */
+     
+     display: grid;
+     grid-template-columns: 40% 60%;
+     grid-template-rows: 13% ;
+     background:url(81f3ff974d82520780078ba1cfbd453a1583259680.avif);
+    background-size: cover;
+}
+.a1
+{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding-left: 34%;
+    color: white;
+    
+    
+}
+.a1 h1{
+    font-size: 15px;
+    color: white;
+}
+.a1 h2
+{   font-weight: 900;
+    font-size: 15px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.a2
+{
+    /* background-color: rgb(63, 195, 30); */
+    display: flex;
+    align-items: center;
+    padding-left: 21%;
+    gap: 33px;
+    color: white;
+    
+    
+}
+
+.a2 a
+{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    font-size: 19px;
+    
+}
+.a3
+{
+    /* background-color: rgb(181, 224, 24); */
+    grid-column: 1/3;
+    text-align: center;
+    padding-top: 7%;
+    color: white;
+    
+}
+.a3 img{
+    width: 19%;
+}
+#but
+{   background-color:white;
+    height: 15%;
+    width: 53%;
+    margin-left: 23.5%;
+    border-radius: 10px;
+    display: flex;
+}
+#drop
+{   border: white;
+    box-shadow: none;
+    height: 100%;
+    width: 38%;
+}
+#in
+{   border: none;
+    border-radius: 10px;
+    width:90%;
+}
+#pin
+{
+    color:palevioletred;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#but1
+{
+    height: 100%;
+}
+.a4
+{
+    /* background-color:beige; */
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.card
+{   margin-top: 3%;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 23%;
+    position: relative;
+    
+}
+.card1
+{   position:absolute;
+
+    height: 30%;
+    width:100%;
+    background-color: white;
+    margin-top: 49.5%;
+    padding-left: 5%;
+    padding-top: 3%;
+
+}
+.card-body
+{
+    padding-top: 5px;
+}
+.card    p
+{
+    font-size: 15px;
+}
+.card img{
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+.a5
+{
+    /* background-color:blue; */
+}
+.b1
+{
+    height: 100%;
+    width: 73%;
+    margin-left: 13.5%;
+    /* background-color: forestgreen; */
+}
+.c2
+{
+    display: flex;
+    gap: 1%;
+}
+.card12
+{
+    height: 330px;
+    border-radius: 10px;
+    width: 330px;
+    /* background-color:red; */
+}
+.b2
+{
+    height: 100%;
+    width: 73.5%;
+    padding-top: 5%;
+    margin-left: 13.5%;
+    /* background-color: forestgreen; */
+    
+}
+#btn1
+{   height:20%;
+    width: 32.5%;
+    margin-top:10px ;
+    margin-right: 6px;
+    text-align: left;
+    background-color: white;
+    border: solid black;
+    border-width: 0.001px;
+}
+#btn1:hover
+{
+    background-color: white;
+    box-shadow: 0.5px 0.5px 10px black;
+
+}
+#ico
+{
+    margin-left: 70%;
+    
+}
+.a6
+{
+    /* background-color:pink; */
+}
+.a7
+{   display: flex;
+    padding-left: 25%;
+    padding-right: 25%;
+    /* background-color: palevioletred; */
+}
+.a7 img{
+    height: 300px;
+}
+#email1
+{
+    width: 60%;
+}
+#phone
+{
+    width: 60%;
+    display: none;
+}
+#btn2
+{
+    height: 60px;
+}
+.a8
+{
+    /* background-color: darkcyan; */
+}
+.a9
+{
+    /* background-color: red; */
+}
+
+.accordion-item
+{           
+    margin-top: 20px;
+}
